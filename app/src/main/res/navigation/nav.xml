@@ -15,21 +15,29 @@
     </fragment>
     <fragment
         android:id="@+id/caseSelectFragment1"
-        android:name="com.example.pcbilder.CaseSelectFragment1"
+        android:name="com.example.pcbilder.PcComponentFragments.CaseSelectFragment1"
         android:label="fragment1_case_select"
         tools:layout="@layout/fragment1_case_select" >
         <action
             android:id="@+id/action_caseSelectFragment1_to_cpuSelectFragment2"
             app:destination="@id/cpuSelectFragment2" />
+        <argument
+            android:name="a"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
     <fragment
         android:id="@+id/cpuSelectFragment2"
-        android:name="com.example.pcbilder.CpuSelectFragment2"
+        android:name="com.example.pcbilder.PcComponentFragments.CpuSelectFragment2"
         android:label="fragment2_cpu_select"
         tools:layout="@layout/fragment2_cpu_select" >
         <action
             android:id="@+id/action_cpuSelectFragment2_to_motherboardSelectFragment3"
             app:destination="@id/motherboardSelectFragment3" />
+        <argument
+            android:name="caseNumber"
+            android:defaultValue="0"
+            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/motherboardSelectFragment3"
