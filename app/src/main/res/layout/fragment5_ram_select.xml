@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RamSelectFragment5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/componentText1"
+                style="@style/TextViewStyle"
+                app:layout_constraintEnd_toStartOf="@+id/componentText2"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/componentImage1"
+                style="@style/ImageViewStyle"
+                app:layout_constraintEnd_toEndOf="@+id/componentText1"
+                app:layout_constraintStart_toStartOf="@+id/componentText1"
+                app:layout_constraintTop_toBottomOf="@+id/componentText1" />
+
+            <TextView
+                android:id="@+id/componentText2"
+                style="@style/TextViewStyle"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/componentText1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/componentImage2"
+                style="@style/ImageViewStyle"
+                app:layout_constraintEnd_toEndOf="@+id/componentText2"
+                app:layout_constraintStart_toStartOf="@+id/componentText2"
+                app:layout_constraintTop_toBottomOf="@+id/componentText2" />
+
+
+
+            <TextView
+                android:id="@+id/componentText3"
+                style="@style/TextViewStyle"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/componentImage1"
+                app:layout_constraintStart_toStartOf="@+id/componentImage1"
+                app:layout_constraintTop_toBottomOf="@+id/componentImage1" />
+
+            <ImageView
+                android:id="@+id/componentImage3"
+                style="@style/ImageViewStyle"
+                app:layout_constraintEnd_toEndOf="@+id/componentText3"
+                app:layout_constraintStart_toStartOf="@+id/componentText3"
+                app:layout_constraintTop_toBottomOf="@+id/componentText3" />
+
+            <TextView
+                android:id="@+id/componentText4"
+                style="@style/TextViewStyle"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="@+id/componentImage2"
+                app:layout_constraintStart_toStartOf="@+id/componentImage2"
+                app:layout_constraintTop_toBottomOf="@+id/componentImage2" />
+
+            <ImageView
+                android:id="@+id/componentImage4"
+                style="@style/ImageViewStyle"
+                app:layout_constraintEnd_toEndOf="@+id/componentText4"
+                app:layout_constraintStart_toStartOf="@+id/componentText4"
+                app:layout_constraintTop_toBottomOf="@+id/componentText4" />
+
+
+
+            <TextView
+                android:id="@+id/componentText5"
+                style="@style/TextViewStyle"
+                app:layout_constraintEnd_toEndOf="@+id/componentImage3"
+                app:layout_constraintStart_toStartOf="@+id/componentImage3"
+                app:layout_constraintTop_toBottomOf="@+id/componentImage3" />
+
+            <ImageView
+                android:id="@+id/componentImage5"
+                style="@style/ImageViewStyle"
+                android:layout_marginBottom="13dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/componentText5"
+                app:layout_constraintStart_toStartOf="@+id/componentText5"
+                app:layout_constraintTop_toBottomOf="@+id/componentText5" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</FrameLayout>

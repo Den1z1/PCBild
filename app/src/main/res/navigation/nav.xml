@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.pcbilder.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_caseSelectFragment1"
+            app:destination="@id/caseSelectFragment1" />
+    </fragment>
+    <fragment
+        android:id="@+id/caseSelectFragment1"
+        android:name="com.example.pcbilder.CaseSelectFragment1"
+        android:label="fragment1_case_select"
+        tools:layout="@layout/fragment1_case_select" >
+        <action
+            android:id="@+id/action_caseSelectFragment1_to_cpuSelectFragment2"
+            app:destination="@id/cpuSelectFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/cpuSelectFragment2"
+        android:name="com.example.pcbilder.CpuSelectFragment2"
+        android:label="fragment2_cpu_select"
+        tools:layout="@layout/fragment2_cpu_select" >
+        <action
+            android:id="@+id/action_cpuSelectFragment2_to_motherboardSelectFragment3"
+            app:destination="@id/motherboardSelectFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/motherboardSelectFragment3"
+        android:name="com.example.pcbilder.MotherboardSelectFragment3"
+        android:label="fragment3_motherboard_select"
+        tools:layout="@layout/fragment3_motherboard_select" >
+        <action
+            android:id="@+id/action_motherboardSelectFragment3_to_gpuSelectFragment43"
+            app:destination="@id/gpuSelectFragment43" />
+    </fragment>
+    <fragment
+        android:id="@+id/gpuSelectFragment43"
+        android:name="com.example.pcbilder.GpuSelectFragment4"
+        android:label="fragment4_gpu_select"
+        tools:layout="@layout/fragment4_gpu_select" >
+        <action
+            android:id="@+id/action_gpuSelectFragment43_to_ramSelectFragment5"
+            app:destination="@id/ramSelectFragment5" />
+    </fragment>
+    <fragment
+        android:id="@+id/ramSelectFragment5"
+        android:name="com.example.pcbilder.RamSelectFragment5"
+        android:label="fragment5_ram_select"
+        tools:layout="@layout/fragment5_ram_select" >
+        <action
+            android:id="@+id/action_ramSelectFragment5_to_memorySelectFragment6"
+            app:destination="@id/memorySelectFragment6" />
+    </fragment>
+    <fragment
+        android:id="@+id/memorySelectFragment6"
+        android:name="com.example.pcbilder.MemorySelectFragment6"
+        android:label="fragment6_memory_select"
+        tools:layout="@layout/fragment6_memory_select" >
+        <action
+            android:id="@+id/action_memorySelectFragment6_to_coolerSelectFragment7"
+            app:destination="@id/coolerSelectFragment7" />
+    </fragment>
+    <fragment
+        android:id="@+id/coolerSelectFragment7"
+        android:name="com.example.pcbilder.CoolerSelectFragment7"
+        android:label="fragment7_cooler_select"
+        tools:layout="@layout/fragment7_cooler_select" >
+        <action
+            android:id="@+id/action_coolerSelectFragment7_to_powerunitSelectFragment8"
+            app:destination="@id/powerunitSelectFragment8" />
+    </fragment>
+    <fragment
+        android:id="@+id/powerunitSelectFragment8"
+        android:name="com.example.pcbilder.PowerunitSelectFragment8"
+        android:label="fragment8_powerunit_select"
+        tools:layout="@layout/fragment8_powerunit_select" />
+</navigation>
