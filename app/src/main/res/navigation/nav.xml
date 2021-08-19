@@ -73,7 +73,7 @@
             app:argType="integer"
             android:defaultValue="0" />
         <argument
-            android:name="motherboatdNumber"
+            android:name="motherboardNumber"
             app:argType="integer"
             android:defaultValue="0" />
     </fragment>
@@ -110,6 +110,26 @@
         <action
             android:id="@+id/action_memorySelectFragment6_to_coolerSelectFragment7"
             app:destination="@id/coolerSelectFragment7" />
+        <argument
+            android:name="caseNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="cpuNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="motherboardNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="gpuNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="ramNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
     <fragment
         android:id="@+id/coolerSelectFragment7"
@@ -119,10 +139,80 @@
         <action
             android:id="@+id/action_coolerSelectFragment7_to_powerunitSelectFragment8"
             app:destination="@id/powerunitSelectFragment8" />
+        <argument
+            android:name="caseNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="cpuNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="motherboardNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="gpuNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="ramNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="memoryNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
     <fragment
         android:id="@+id/powerunitSelectFragment8"
         android:name="com.example.pcbilder.PowerunitSelectFragment8"
         android:label="fragment8_powerunit_select"
-        tools:layout="@layout/fragment8_powerunit_select" />
+        tools:layout="@layout/fragment8_powerunit_select" >
+        <argument
+            android:name="caseNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="cpuNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="motherboardNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="gpuNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="ramNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="memoryNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="coolerNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <action
+            android:id="@+id/action_powerunitSelectFragment8_to_resultsFragment"
+            app:destination="@id/resultsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.example.pcbilder.ResultsFragment"
+        android:label="fragment_results"
+        tools:layout="@layout/fragment_results" >
+        <argument
+            android:name="caseNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="cpuNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
 </navigation>

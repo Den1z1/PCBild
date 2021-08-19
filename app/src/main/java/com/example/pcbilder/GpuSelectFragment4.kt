@@ -28,7 +28,7 @@ class GpuSelectFragment4 : Fragment() {
         val args: GpuSelectFragment4Args by navArgs()
         val caseNumber = args.caseNumber
         val cpuNumber = args.cpuNumber
-        val motherboardNumber = args.motherboatdNumber
+        val motherboardNumber = args.motherboardNumber
 
         componentImage1.setImageResource(R.drawable.gpu_asusgtx1650)
         SelectGpu(caseNumber, cpuNumber, motherboardNumber, 1).selectComponent(componentImage1,view)

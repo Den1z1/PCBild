@@ -30,31 +30,31 @@ class MotherboardSelectFragment3 : Fragment() {
         val cpuNumber = args.cpuNumber
 
         if (caseNumber < 6 && cpuNumber < 4){
-            componentImage1.setImageResource(R.drawable.mb_asrock_atx_am4_1)
+            componentImage1.setImageResource(R.drawable.mb_asrock_atx_am4_2)
             SelectMotherboard(caseNumber,cpuNumber,1).selectComponent(componentImage1,view)
 
-            componentImage2.setImageResource(R.drawable.mb_asrock_atx_am4_2)
+            componentImage2.setImageResource(R.drawable.mb_asrock_atx_am4_1)
             SelectMotherboard(caseNumber,cpuNumber,2).selectComponent(componentImage2,view)
 
         }else if (caseNumber > 5 && cpuNumber < 4){
-            componentImage1.setImageResource(R.drawable.mb_asrock_matx_am4_1)
+            componentImage1.setImageResource(R.drawable.mb_asrock_matx_am4_2)
             SelectMotherboard(caseNumber,cpuNumber,3).selectComponent(componentImage1,view)
 
-            componentImage2.setImageResource(R.drawable.mb_asrock_matx_am4_2)
+            componentImage2.setImageResource(R.drawable.mb_asrock_matx_am4_1)
             SelectMotherboard(caseNumber,cpuNumber,4).selectComponent(componentImage2,view)
 
         }else if (caseNumber < 6 && cpuNumber > 3){
-            componentImage1.setImageResource(R.drawable.mb_asus_atx_lga1200_1)
+            componentImage1.setImageResource(R.drawable.mb_asrock_atx_lga1200_2)
             SelectMotherboard(caseNumber,cpuNumber,5).selectComponent(componentImage1,view)
 
-            componentImage2.setImageResource(R.drawable.mb_asrock_atx_lga1200_2)
+            componentImage2.setImageResource(R.drawable.mb_asus_atx_lga1200_1)
             SelectMotherboard(caseNumber,cpuNumber,6).selectComponent(componentImage2,view)
 
         }else if (caseNumber > 5 && caseNumber > 3){
-            componentImage1.setImageResource(R.drawable.mb_asrock_matx_lga1200_1)
+            componentImage1.setImageResource(R.drawable.mb_asrock_matx_lga1200_2)
             SelectMotherboard(caseNumber,cpuNumber,7).selectComponent(componentImage1,view)
 
-            componentImage2.setImageResource(R.drawable.mb_asrock_matx_lga1200_2)
+            componentImage2.setImageResource(R.drawable.mb_asrock_matx_lga1200_1)
             SelectMotherboard(caseNumber,cpuNumber,8).selectComponent(componentImage2,view)
         }
     }
