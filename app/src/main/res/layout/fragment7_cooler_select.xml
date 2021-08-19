@@ -38,7 +38,6 @@
             <TextView
                 android:id="@+id/componentText2"
                 style="@style/TextViewStyle"
-                android:textSize="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/componentText1"
@@ -56,7 +55,6 @@
             <TextView
                 android:id="@+id/componentText3"
                 style="@style/TextViewStyle"
-                android:textSize="15dp"
                 app:layout_constraintEnd_toEndOf="@+id/componentImage1"
                 app:layout_constraintStart_toStartOf="@+id/componentImage1"
                 app:layout_constraintTop_toBottomOf="@+id/componentImage1" />
