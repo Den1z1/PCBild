@@ -1,4 +1,4 @@
-package com.example.pcbilder.PcComponentFragments
+package com.example.pcbilder
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

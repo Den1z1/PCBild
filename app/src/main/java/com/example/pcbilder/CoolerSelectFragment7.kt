@@ -1,4 +1,4 @@
-package com.example.pcbilder.PcComponentFragments
+package com.example.pcbilder
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -14,10 +14,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [MotherboardSelectFragment3.newInstance] factory method to
+ * Use the [CoolerSelectFragment7.newInstance] factory method to
  * create an instance of this fragment.
  */
-class MotherboardSelectFragment3 : Fragment() {
+class CoolerSelectFragment7 : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -35,7 +35,7 @@ class MotherboardSelectFragment3 : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment3_motherboard_select, container, false)
+        return inflater.inflate(R.layout.fragment7_cooler_select, container, false)
     }
 
     companion object {
@@ -45,12 +45,12 @@ class MotherboardSelectFragment3 : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment MotherboardSelectFragment3.
+         * @return A new instance of fragment CoolerSelectFragment7.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            MotherboardSelectFragment3().apply {
+            CoolerSelectFragment7().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

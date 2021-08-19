@@ -2,7 +2,7 @@ package com.example.pcbilder.PcSelectComponent
 
 
 import androidx.navigation.NavDirections
-import com.example.pcbilder.PcComponentFragments.CaseSelectFragment1Directions
+import com.example.pcbilder.CaseSelectFragment1Directions
 
 
 class SelectCase(caseNumber: Int): SelectComponents{
