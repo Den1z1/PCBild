@@ -6,10 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
-import com.example.pcbilder.PcSelectComponent.SelectCpu
 import com.example.pcbilder.PcSelectComponent.SelectRam
 import com.example.pcbilder.R
-import kotlinx.android.synthetic.main.fragment1_case_select.*
+import kotlinx.android.synthetic.main.fragment5_ram_select.*
 
 class RamSelectFragment5 : Fragment() {
 

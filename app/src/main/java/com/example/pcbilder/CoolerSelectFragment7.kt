@@ -8,8 +8,8 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import com.example.pcbilder.PcSelectComponent.SelectCooler
 import com.example.pcbilder.R
-import kotlinx.android.synthetic.main.fragment1_case_select.*
-import kotlinx.android.synthetic.main.fragment_main.*
+import kotlinx.android.synthetic.main.fragment7_cooler_select.*
+
 
 
 class CoolerSelectFragment7 : Fragment() {
@@ -24,6 +24,7 @@ class CoolerSelectFragment7 : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         val args: CoolerSelectFragment7Args by navArgs()
         val caseNumber = args.caseNumber
         val cpuNumber = args.cpuNumber

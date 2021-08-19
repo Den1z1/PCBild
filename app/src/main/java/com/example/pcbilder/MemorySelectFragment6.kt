@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import com.example.pcbilder.PcSelectComponent.SelectMemory
 import com.example.pcbilder.R
-import kotlinx.android.synthetic.main.fragment1_case_select.*
+import kotlinx.android.synthetic.main.fragment6_memory_select.*
 
 class MemorySelectFragment6 : Fragment() {
 

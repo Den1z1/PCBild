@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import com.example.pcbilder.PcSelectComponent.SelectCpu
-import kotlinx.android.synthetic.main.fragment1_case_select.*
+import kotlinx.android.synthetic.main.fragment2_cpu_select.*
 
 class CpuSelectFragment2 : Fragment() {
 

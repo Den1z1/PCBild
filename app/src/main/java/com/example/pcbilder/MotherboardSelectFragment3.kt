@@ -6,11 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
-import com.example.pcbilder.MotherboardSelectFragment3Args
-import com.example.pcbilder.PcSelectComponent.SelectCase
 import com.example.pcbilder.PcSelectComponent.SelectMotherboard
 import com.example.pcbilder.R
-import kotlinx.android.synthetic.main.fragment1_case_select.*
+import kotlinx.android.synthetic.main.fragment3_motherboard_select.*
 
 class MotherboardSelectFragment3 : Fragment() {
 
