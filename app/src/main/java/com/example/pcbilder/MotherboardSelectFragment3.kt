@@ -25,7 +25,7 @@ class MotherboardSelectFragment3 : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val args:MotherboardSelectFragment3Args by navArgs()
+        val args: MotherboardSelectFragment3Args by navArgs()
         val caseNumber = args.caseNumber
         val cpuNumber = args.cpuNumber
 
