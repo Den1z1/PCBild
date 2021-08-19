@@ -214,5 +214,29 @@
             android:name="cpuNumber"
             app:argType="integer"
             android:defaultValue="0" />
+        <argument
+            android:name="motherboardNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="gpuNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="ramNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="memoryNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="coolerNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="powerunitNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
 </navigation>

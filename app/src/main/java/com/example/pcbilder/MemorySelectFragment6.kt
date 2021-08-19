@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
+import com.example.pcbilder.PcSelectComponent.SelectMemory
 import com.example.pcbilder.R
 import kotlinx.android.synthetic.main.fragment1_case_select.*
 
@@ -30,13 +31,18 @@ class MemorySelectFragment6 : Fragment() {
         val ramNumber = args.ramNumber
 
         componentImage1.setImageResource(R.drawable.m_wdblue)
+        SelectMemory(caseNumber,cpuNumber,motherboardNumber,gpuNumber,ramNumber,1).selectComponent(componentImage1, view)
 
         componentImage2.setImageResource(R.drawable.m_kssata)
+        SelectMemory(caseNumber,cpuNumber,motherboardNumber,gpuNumber,ramNumber,2).selectComponent(componentImage2, view)
 
         componentImage3.setImageResource(R.drawable.m_kssata)
+        SelectMemory(caseNumber,cpuNumber,motherboardNumber,gpuNumber,ramNumber,3).selectComponent(componentImage3, view)
 
         componentImage4.setImageResource(R.drawable.m_kssata)
+        SelectMemory(caseNumber,cpuNumber,motherboardNumber,gpuNumber,ramNumber,4).selectComponent(componentImage4, view)
 
         componentImage5.setImageResource(R.drawable.m_ksm2)
+        SelectMemory(caseNumber,cpuNumber,motherboardNumber,gpuNumber,ramNumber,5).selectComponent(componentImage5, view)
     }
 }
