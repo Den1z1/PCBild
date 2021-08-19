@@ -22,6 +22,7 @@ class CaseSelectFragment1 : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+
         componentImage1.setImageResource(R.drawable.cs_ginzzu1)
         SelectCase(1).selectComponent(componentImage1,view)
 

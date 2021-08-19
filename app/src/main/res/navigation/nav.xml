@@ -64,6 +64,18 @@
         <action
             android:id="@+id/action_gpuSelectFragment43_to_ramSelectFragment5"
             app:destination="@id/ramSelectFragment5" />
+        <argument
+            android:name="caseNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="cpuNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="motherboatdNumber"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
     <fragment
         android:id="@+id/ramSelectFragment5"
